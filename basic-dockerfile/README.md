@@ -51,3 +51,13 @@ docker run --rm hello-captain
 ```bash
 Hello, Captain!
 ```
+
+## Update
+
+You can change the message to print "Hello, **_<your_name>_**!" instead of "Hello, Captain" by setting an environment variable with `-e` when execute `docker run`.
+
+```bash
+docker build -t hello-captain .
+
+docker run --rm -e NAME=YourName hello-captain
+```
