@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Valley Sans", sans-serif;
   font-optical-sizing: auto;
@@ -228,6 +232,27 @@ body {
       caret-color: #555;
       padding: 0.4rem;
     }
+
+    & > textarea {
+      caret-color: #555;
+      padding: 0.4rem;
+    }
+  }
+  & > .contact-btn {
+    width: 100%;
+    height: 28px;
+    padding: 0.4rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #8822ff;
+    color: #fff;
+    font-weight: 400;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #6600ff;
+    }
   }
 }
 
@@ -254,4 +279,27 @@ input:focus-visible {
 
 textarea:focus-visible {
   outline: none;
+}
+
+.social-buttons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  & > a {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    gap: 0.5rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    color: #000;
+    text-decoration: none;
+
+    & > svg {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
 }
