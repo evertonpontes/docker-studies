@@ -220,18 +220,6 @@ The portfolio is a **static website**, so there is no backend, database, JavaScr
 
 The purpose of the project is primarily to understand how a static website can be packaged into a Docker image and served by NGINX.
 
-## 📌 Future Improvements
-
-Possible improvements for further Docker practice:
-
-- Add a `.dockerignore` file
-- Configure a custom NGINX configuration
-- Add Docker Compose
-- Add HTTPS support
-- Add a CI/CD workflow
-- Publish the Docker image to a container registry
-- Deploy the container to a cloud server
-
 ---
 
 **Part of my Docker studies repository:**
