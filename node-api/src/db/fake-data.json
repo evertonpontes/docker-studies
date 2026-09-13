@@ -1,0 +1,64 @@
+{
+  "users": [
+    { "id": 1, "name": "Jhon Doe", "email": "jhon.doe@yeyhoo.com" },
+    { "id": 2, "name": "Alice Smith", "email": "alice.smith@novacore.com" },
+    { "id": 3, "name": "Bruno Costa", "email": "bruno.costa@brightlabs.io" },
+    { "id": 4, "name": "Carla Mendes", "email": "carla.mendes@orbitworks.co" },
+    {
+      "id": 5,
+      "name": "Daniel Silva",
+      "email": "daniel.silva@pixelharbor.com"
+    },
+    { "id": 6, "name": "Emma Johnson", "email": "emma.johnson@cloudspire.net" },
+    { "id": 7, "name": "Felipe Rocha", "email": "felipe.rocha@greenforge.org" },
+    { "id": 8, "name": "Grace Wilson", "email": "grace.wilson@apexgrid.com" },
+    {
+      "id": 9,
+      "name": "Henrique Alves",
+      "email": "henrique.alves@bluepeak.dev"
+    },
+    {
+      "id": 10,
+      "name": "Isabela Martins",
+      "email": "isabela.martins@redwoodsystems.com"
+    },
+    { "id": 11, "name": "Jacob Brown", "email": "jacob.brown@silverline.tech" },
+    {
+      "id": 12,
+      "name": "Julia Ferreira",
+      "email": "julia.ferreira@sunsetdigital.io"
+    },
+    {
+      "id": 13,
+      "name": "Kevin Taylor",
+      "email": "kevin.taylor@vertexpoint.com"
+    },
+    {
+      "id": 14,
+      "name": "Larissa Gomes",
+      "email": "larissa.gomes@moonstonegroup.co"
+    },
+    {
+      "id": 15,
+      "name": "Lucas Oliveira",
+      "email": "lucas.oliveira@ironwoodlabs.net"
+    },
+    {
+      "id": 16,
+      "name": "Maria Thompson",
+      "email": "maria.thompson@clearpathworks.org"
+    },
+    {
+      "id": 17,
+      "name": "Nathan Davis",
+      "email": "nathan.davis@skylinksolutions.com"
+    },
+    {
+      "id": 18,
+      "name": "Paula Santos",
+      "email": "paula.santos@wildrivertech.dev"
+    },
+    { "id": 19, "name": "Rafael Lima", "email": "rafael.lima@evercrest.io" },
+    { "id": 20, "name": "Sofia Clark", "email": "sofia.clark@northstarhub.com" }
+  ]
+}

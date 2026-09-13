@@ -1,0 +1,27 @@
+### List users
+GET http://localhost:3000/users
+
+### Create user
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "id": 21,
+    "name": "Everton",
+    "email": "evertonpontes@email.com"
+}
+
+### Update user
+PUT http://localhost:3000/users/21
+Content-Type: application/json
+
+{
+    "name": "Everton Pontes",
+    "email": "evertonpontes2@email.com"
+}
+
+### Delete user
+DELETE http://localhost:3000/users/21
+
+### Find user by id
+GET http://localhost:3000/users/21
